@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }} — Pure-Go kramdown.</title>
+<meta name="description" content="Pure-Go kramdown.">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
+<script src="{{ "js/theme.js" | relURL }}"></script>
+</head><body>
+<section class="hero">
+  <button id="themebtn" class="theme" type="button">Theme: System</button>
+  <img src="{{ "img/go-kramdown-white.png" | relURL }}" alt="go-kramdown">
+  <h1>go-kramdown</h1>
+  <p>Pure-Go kramdown.</p>
+  <div class="btns">
+    <a class="btn btn-solid" href="https://go-kramdown.github.io/docs/">Documentation</a>
+    <a class="btn btn-ghost" href="https://github.com/go-kramdown">GitHub</a>
+  </div>
+</section>
+<div class="wrap">
+  <div class="panel">
+    <h2>What is go-kramdown?</h2>
+    <p>go-kramdown is a pure-Go (CGO_ENABLED=0) converter for the kramdown Markdown dialect (a superset of Markdown with inline attribute lists and more) to HTML — the parser and renderer that back kramdown&#x27;s to_html, with no Ruby runtime.</p>
+  </div>
+  <h2 class="section">Packages</h2>
+  <p class="sub">{{ len site.Data.pkgs.packages }} module(s) — generated from the org's repos.</p>
+  <div class="grid">
+    <div class="card"><div class="chip">KD</div><div class="nm">kramdown</div><div class="ds">kramdown-dialect Markdown-to-HTML converter (superset of Markdown, inline attribute lists).</div><div class="lk"><a href="https://github.com/go-kramdown/kramdown">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-kramdown/kramdown">pkg.go.dev</a></div></div>
+  </div>
+</div>
+<footer>Built with Hugo · Pure Go, CGO=0 · Branding from <a href="https://github.com/go-kramdown/brand">go-kramdown/brand</a></footer>
+</body></html>

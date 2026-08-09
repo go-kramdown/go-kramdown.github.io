@@ -1,0 +1,4 @@
+baseURL = "https://go-kramdown.github.io/"
+languageCode = "en-us"
+title = "go-kramdown"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
